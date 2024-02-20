@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vure ledilo`s calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>web 2 javascript project</h1>
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="addDisplay('+')" class="operator">+</button>
+            <button onclick="addDisplay('7')" >7</button>
+            <button onclick="addDisplay('8')" >8</button>
+            <button onclick="addDisplay('9')" >9</button>
+            <button onclick="addDisplay('-')" class="operator">-</button>
+            <button onclick="addDisplay('4')" >4</button>
+            <button onclick="addDisplay('5')" >5</button>
+            <button onclick="addDisplay('6')" >6</button>
+            <button onclick="addDisplay('*')" class="operator">*</button>
+            <button onclick="addDisplay('1')" >1</button>
+            <button onclick="addDisplay('2')" >2</button>
+            <button onclick="addDisplay('3')" >3</button>
+            <button onclick="addDisplay('/')" class="operator">/</button>
+            <button onclick="addDisplay('0')" >0</button>
+            <button onclick="addDisplay('.')" >.</button>
+            <button onclick="calculate()">=</button>
+            <button onchange="clearDisplay()">C</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
